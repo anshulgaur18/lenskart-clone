@@ -1,0 +1,160 @@
+.navbarDiv {
+  background-color: #fff;
+  width: 153.6rem;
+  height: 15.5rem;
+  font-size: 0.9vw;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar_top {
+  position: fixed;
+  width: 153.6rem;
+  height: 4rem;
+  background: #fff;
+  z-index: 999;
+  left: 0;
+  transition: 0.7s all ease-in-out;
+  padding: 0.7vw 0 0;
+}
+
+.navbar_links {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 0;
+  transition: 0.7s all;
+}
+
+.navbar_links > ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.navbar_links li {
+  border-right: 0.1rem solid #000042;
+  padding: 0 0.5vw;
+}
+
+.navbar_links span {
+  color: #000042;
+  font-size: 1.1rem;
+}
+
+.navbar_linksLI:first-child {
+  padding-left: 0;
+}
+
+.navbar_linksLI:last-child {
+  border-right: none;
+}
+
+.navbar_bottom {
+  position: fixed;
+  width: 153.6rem;
+  background: #fff;
+  z-index: 999;
+  left: 0;
+  transition: 0.7s all ease-in-out;
+  top: 4rem;
+}
+
+.navbar_bottom_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.lenskart_logo {
+  flex-basis: 25%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  width: 18rem;
+}
+
+.lenskart_logo > img {
+  width: 12.5rem;
+  right: -3rem;
+}
+
+.search {
+  flex-grow: 0.8;
+  display: block;
+  position: relative;
+}
+
+.search input {
+  z-index: 42;
+  background: #fff;
+  width: 100%;
+  padding: 0.6rem 1%;
+  margin: 0;
+  position: relative;
+  letter-spacing: 0.1rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0.1rem solid rgba(0, 0, 66, 0.5);
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 66, 0.5);
+}
+
+.navbar_bottom_top_details {
+  flex-basis: 24%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  line-height: 2rem;
+}
+
+.navbar_bottom_bot {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.navbar_bottom_bot_left {
+  flex: 1;
+  height: 6rem;
+  align-items: center;
+
+  display: flex;
+  margin-right: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.navbar_bottom_bot_left > span {
+  padding: 0 0.7vw;
+  font-weight: 600;
+  line-height: 0.6rem;
+  font-size: 1.6rem;
+}
+
+.navbar_bottom_bot_right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_bottom_img > img {
+  padding-right: 0.1rem;
+  height: 2.3vw;
+  border-radius: 0.4rem;
+  margin-right: 0.4rem;
+}
