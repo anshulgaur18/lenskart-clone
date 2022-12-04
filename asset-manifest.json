@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lenskart-clone/static/css/main.6a33ff95.css",
+    "main.js": "/lenskart-clone/static/js/main.601c4cfc.js",
+    "index.html": "/lenskart-clone/index.html",
+    "main.6a33ff95.css.map": "/lenskart-clone/static/css/main.6a33ff95.css.map",
+    "main.601c4cfc.js.map": "/lenskart-clone/static/js/main.601c4cfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a33ff95.css",
+    "static/js/main.601c4cfc.js"
+  ]
+}
